@@ -99,7 +99,7 @@ const Hero = () => {
           transition={{ delay: 0.5, duration: 1 }}
         >
           <div className="image-container">
-            <img src="/linkdin.jpeg" alt="LinkedIn Logo" />
+            <img src="/24M11MC143.png" alt="LinkedIn Logo" />
 
             <div className="image-glow"></div>
           </div>
