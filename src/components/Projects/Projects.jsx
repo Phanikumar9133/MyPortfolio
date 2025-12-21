@@ -38,7 +38,25 @@ const Projects = () => {
       demo: 'https://phanikumar-nine.vercel.app//'
     },
     {
-      id: 4,
+  id: 4,
+  title: 'Hostel Management & Slot Booking System',
+  description: 'A full-stack, highly responsive hostel management and slot-based booking platform with user and owner authentication, interactive seat selection, hostel listings, reviews, and owner dashboards built using MERN stack and React Vite.',
+  image: 'https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=500',
+  category: 'Web',
+  technologies: [
+    'React (Vite)',
+    'JavaScript',
+    'Bootstrap',
+    'Node.js',
+    'Express.js',
+    'MongoDB Atlas',
+    'JWT Authentication'
+  ],
+  github: 'https://github.com/Phanikumar9133/LocalHostel',
+  demo: 'https://localhostel.onrender.com/'
+},
+    {
+      id: 5,
       title: 'Sports Event Tracker',
       description: 'A responsive web app to manage and track college sports events, including team registration, match schedules, live score updates, and result boards.',
       image: 'https://images.pexels.com/photos/3991876/pexels-photo-3991876.jpeg?auto=compress&cs=tinysrgb&w=500',
