@@ -28,15 +28,21 @@ const Projects = () => {
       demo: 'https://weatherapplication-zeta.vercel.app/'
     },
     {
-      id: 3,
-      title: 'Portfolio Website',
-      description: 'Modern, responsive portfolio website with dark theme, smooth animations, and contact form integration.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500',
-      category: 'Web',
-      technologies: ['React', 'Framer Motion', 'CSS3'],
-      github: 'https://github.com/Phanikumar9133',
-      demo: 'https://phanikumar-nine.vercel.app//'
-    },
+  id: 3,
+  title: 'Todo Application',
+  description: 'A modern, responsive Todo application with task creation, editing, deletion, completion tracking, and persistent storage, built using React Vite with clean UI and smooth interactions.',
+  image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=500',
+  category: 'Web',
+  technologies: [
+    'React (Vite)',
+    'JavaScript',
+    'CSS3',
+    'Local Storage',
+    'Framer Motion'
+  ],
+  github: 'https://github.com/Phanikumar9133/Todo_app',
+  demo: 'https://todo-application-rho-nine.vercel.app/'
+},
     {
   id: 4,
   title: 'Hostel Management & Slot Booking System',
@@ -55,8 +61,19 @@ const Projects = () => {
   github: 'https://github.com/Phanikumar9133/LocalHostel',
   demo: 'https://localhostel.onrender.com/'
 },
-    {
+  
+{
       id: 5,
+      title: 'Portfolio Website',
+      description: 'Modern, responsive portfolio website with dark theme, smooth animations, and contact form integration.',
+      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500',
+      category: 'Web',
+      technologies: ['React', 'Framer Motion', 'CSS3'],
+      github: 'https://github.com/Phanikumar9133',
+      demo: 'https://phanikumar-nine.vercel.app//'
+    },
+    {
+      id: 6,
       title: 'Sports Event Tracker',
       description: 'A responsive web app to manage and track college sports events, including team registration, match schedules, live score updates, and result boards.',
       image: 'https://images.pexels.com/photos/3991876/pexels-photo-3991876.jpeg?auto=compress&cs=tinysrgb&w=500',
@@ -65,9 +82,7 @@ const Projects = () => {
       github: 'https://github.com/Phanikumar9133',
       demo: 'https://demo.com'
     },
-    
-    
-    
+  
   ];
 
   const filters = ['All', 'Web', 'Apps'];

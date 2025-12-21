@@ -7,22 +7,22 @@ const ProblemSolving = () => {
     {
       name: 'LeetCode',
       url: 'https://leetcode.com/Phanikumar9133/',
-      problemsSolved: 110,
-      streak: 103,
+      problemsSolved: 148,
+      streak: 76,
       icon: '🔥',
     },
     {
       name: 'HackerRank',
-      url: 'https://www.hackerrank.com/phanikumar9133',
+      url: 'https://www.hackerrank.com/profile/phanikumarpotha1',
       problemsSolved: 55,
-      badges: 8,
+      badges: 9,
       icon: '⭐',
     },
     {
       name: 'GeeksforGeeks',
       url: 'https://www.geeksforgeeks.org/user/phanikumarpotcubc/',
-      problemsSolved: 55,
-      rank: 950,
+      problemsSolved: 117,
+      rank: 570,
       icon: '📈',
     },
     {
