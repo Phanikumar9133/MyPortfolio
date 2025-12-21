@@ -9,23 +9,33 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500',
-      category: 'Web',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com/Phanikumar9133',
-      demo: 'https://demo.com'
-    },
-    {
-      id: 2,
       title: 'eTrack Management System',
       description: 'Full-stack asset tracking system with barcode scanning, dynamic floor management, real-time and email notifications, and role-based access for admins and students.',
       image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=500',
       category: 'Web',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.IO', 'Nodemailer', 'Tailwind CSS'],
       github: 'https://github.com/Phanikumar9133',
-      demo: 'https://demo.com'
+      demo: 'https://e-track-project.vercel.app/'
+    },
+   {
+      id: 2,
+      title: 'Weather',
+      description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
+      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=500',
+      category: 'Web',
+      technologies: ['React Native', 'Weather API', 'Maps'],
+      github: 'https://github.com/Phanikumar9133',
+      demo: 'https://weatherapplication-zeta.vercel.app/'
+    },
+    {
+      id: 3,
+      title: 'Portfolio Website',
+      description: 'Modern, responsive portfolio website with dark theme, smooth animations, and contact form integration.',
+      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500',
+      category: 'Web',
+      technologies: ['React', 'Framer Motion', 'CSS3'],
+      github: 'https://github.com/Phanikumar9133',
+      demo: 'https://phanikumar-nine.vercel.app//'
     },
     {
       id: 4,
@@ -37,36 +47,9 @@ const Projects = () => {
       github: 'https://github.com/Phanikumar9133',
       demo: 'https://demo.com'
     },
-    {
-      id: 5,
-      title: 'Weather',
-      description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=500',
-      category: 'Web',
-      technologies: ['React Native', 'Weather API', 'Maps'],
-      github: 'https://github.com/Phanikumar9133',
-      demo: 'https://demo.com'
-    },
-    {
-      id: 6,
-      title: 'Portfolio Website',
-      description: 'Modern, responsive portfolio website with dark theme, smooth animations, and contact form integration.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=500',
-      category: 'Web',
-      technologies: ['React', 'Framer Motion', 'CSS3'],
-      github: 'https://github.com/Phanikumar9133',
-      demo: 'https://demo.com'
-    },
-    {
-      id: 7,
-      title: 'Fitness Tracker',
-      description: 'Mobile fitness tracking application with workout logging, progress tracking, and social features.',
-      image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=500',
-      category: 'Web',
-      technologies: ['React Native', 'SQLite', 'Health API'],
-      github: 'https://github.com/Phanikumar9133',
-      demo: 'https://demo.com'
-    }
+    
+    
+    
   ];
 
   const filters = ['All', 'Web', 'Apps'];
