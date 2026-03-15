@@ -69,7 +69,7 @@ const Hero = () => {
               Get In Touch
             </button>
               
-            <a href="https://drive.google.com/file/d/1H0loCpmL8y-INdGGBoLQkTZS19aOuH6y/view?usp=sharing" className="btn-secondary" download>
+            <a href="https://drive.google.com/file/d/1g5CkyR7vhqj13IGNvIOimLDduOCC7jJ4/view?usp=sharing" className="btn-secondary" download>
               <FaDownload /> Download Resume
             </a>
           </motion.div>
